@@ -7,7 +7,7 @@ const path = require('path');
 const questions = [
     {
         type: 'input',
-        name: 'Title',
+        name: 'title',
         message: 'What is the title of your ReadMe?',
     },
     {
@@ -17,27 +17,27 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'License',
+        name: 'license',
         message: 'What license would you like to use?',
     },
     {
         type: 'input',
-        name: 'GitHub',
+        name: 'gitHub',
         message: 'Enter your Github username',
     },
     {
         type: 'input',
-        name: 'Name',
+        name: 'name',
         message: 'Enter your full name',
     },
     {
         type: 'input',
-        name: 'Email',
+        name: 'email',
         message: 'Enter your email',
     },
     {
         type: 'input',
-        name: 'Require',
+        name: 'require',
         message: 'List any dependencies used',
     },
     {
